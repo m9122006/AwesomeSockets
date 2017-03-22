@@ -22,7 +22,10 @@ before_build:
 - ps: '$path = "C:\projects\awesomesockets\src\AwesomeSockets.Routing\project.json"; (Get-Content $path) -replace ''"version":\s+"(\d+\.\d+\.\d+(-\*)?)"'',"`"version`": `"$env:APPVEYOR_BUILD_VERSION`"" | out-file $path'
 - ps: '$path = "C:\projects\awesomesockets\src\AwesomeSockets.Reactive.Additions\project.json"; (Get-Content $path) -replace ''"version":\s+"(\d+\.\d+\.\d+(-\*)?)"'',"`"version`": `"$env:APPVEYOR_BUILD_VERSION`"" | out-file $path'
 build_script:
-- dotnet build src\AwesomeSockets.** -c %CONFIGURATION%
+- dotnet build src\AwesomeSockets.Interfaces -c %CONFIGURATION%
+- dotnet build src\AwesomeSockets.Core -c %CONFIGURATION%
+- dotnet build src\AwesomeSockets.Routing -c %CONFIGURATION%
+- dotnet build src\AwesomeSockets.Reactive.Additions -c %CONFIGURATION%
 after_build:
 - dotnet pack src\AwesomeSockets.Interfaces -c %CONFIGURATION% --no-build -o artifacts
 - dotnet pack src\AwesomeSockets.Core -c %CONFIGURATION% --no-build -o artifacts
