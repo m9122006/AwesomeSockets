@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("AwesomeSockets")]
+[assembly: AssemblyTitle("AwesomeSockets.Core")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("AwesomeSockets")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyProduct("AwesomeSockets.Core")]
+[assembly: AssemblyCopyright("Copyright Nicholas Terry 2012-2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -23,4 +23,4 @@ using System.Runtime.InteropServices;
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 
-[assembly: Guid("1FD8F537-346A-4198-9AAF-BE782B3DFB75")]
+[assembly: Guid("0C887D26-5A91-4BCA-89A8-6FAF50040809")]

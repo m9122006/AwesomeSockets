@@ -5,15 +5,22 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
+
+[assembly: AssemblyTitle("AwesomeSockets.Routing")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("AwesomeSockets.Tests")]
+[assembly: AssemblyProduct("AwesomeSockets.Routing")]
+[assembly: AssemblyCopyright("Copyright Nicholas Terry 2012-2017")]
 [assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
 // to COM components.  If you need to access a type in this assembly from
 // COM, set the ComVisible attribute to true on that type.
+
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c9e5eb0f-88f2-4aa5-94af-97dcb212f573")]
+
+[assembly: Guid("EE2FE254-B030-485C-834E-FC2AE082F95B")]
