@@ -1,6 +1,6 @@
 ﻿{
     "name": "AwesomeSockets.Interfaces",
-    "version": "1.0.0-*",
+    "version": "3.0.0-*",
     "description": "Essential interfaces for AwesomeSockets.",
     "title": "AwesomeSockets interfaces.",
     "copyright": "2013 - 2017 Nicholas Terry",

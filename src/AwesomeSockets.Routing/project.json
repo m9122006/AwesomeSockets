@@ -1,6 +1,6 @@
 ﻿{
     "name": "AwesomeSockets.Routing",
-    "version": "1.0.0-*",
+    "version": "3.0.0-*",
     "description": "Routing scheme components for AwesomeSockets.",
     "title": "AwesomeSockets routing scheme components.",
     "copyright": "2013 - 2017 Nicholas Terry",
@@ -9,7 +9,7 @@
 
     "dependencies": {
         "NETStandard.Library": "1.6.0",
-        "AwesomeSockets.Interfaces": "1.0.0-*"
+        "AwesomeSockets.Interfaces": "3.0.0-*"
     },
 
     "frameworks": {

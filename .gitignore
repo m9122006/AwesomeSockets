@@ -128,3 +128,7 @@ sonar-project.properties
 
 # Project json lock
 project.lock.json
+
+
+# artifacts directory
+artifacts
